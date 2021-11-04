@@ -1,86 +1,22 @@
-/* 鼠标指针图标bynote.cn */
-
-body {
-    cursor: url(https://cdn.jsdelivr.net/gh/tinfy/blog-cdn/img/cur_default.cur), auto;
+html, body {
+  cursor: url(https://cdn.jsdelivr.net/gh/tinfy/blog-cdn/img/cur_default.cur), auto;
 }
-
-
-/*a标签*/
-
-a:hover {
-    cursor: url(https://cdn.jsdelivr.net/gh/tinfy/blog-cdn/img/cur_pointer.cur), auto;
+/* 所有的链接和按钮，发表更新时间 */
+a:hover, button:hover, time:hover {
+  cursor: url(https://cdn.jsdelivr.net/gh/tinfy/blog-cdn/img/cur_pointer.cur), auto !important;
 }
-
-
-/*按钮*/
-
-button:hover {
-    cursor: url(https://cdn.jsdelivr.net/gh/tinfy/blog-cdn/img/cur_pointer.cur), auto;
+/* 推送消息的铃铛 */
+prompticon3:hover, btn:hover, popup_close:hover {
+  cursor: url(https://cdn.jsdelivr.net/gh/tinfy/blog-cdn/img/cur_pointer.cur), auto;
 }
-
-#rightside>div>button,
-#rightside>div>a {
-    display: block;
-    margin-bottom: 2px;
-    width: 30px;
-    height: 30px;
-    color: var(--btn-color);
-    text-align: center;
-    font-size: 16px;
-    cursor: url(https://cdn.jsdelivr.net/gh/tinfy/blog-cdn/img/cur_pointer.cur), auto;
+/* 向上的箭头，复制代码的按钮，文章目录，站点概览 */
+.back-to-top:hover, .copy-btn:hover, .sidebar-nav-toc:hover, .sidebar-nav-overview:hover {
+  cursor: url(https://cdn.jsdelivr.net/gh/tinfy/blog-cdn/img/cur_pointer.cur), auto;
 }
-
-
-/* 文章标签 */
-
-.layout_post .tag_share .post-meta__tags {
-    cursor: url(https://cdn.jsdelivr.net/gh/tinfy/blog-cdn/img/cur_pointer.cur), auto;
-}
-
-
 /* 评论区 */
-
-.vcol * {
-    cursor: url(https://cdn.jsdelivr.net/gh/tinfy/blog-cdn/img/cur_pointer.cur), auto;
+svg:hover {
+  cursor: url(https://cdn.jsdelivr.net/gh/tinfy/blog-cdn/img/cur_pointer.cur), auto;
 }
-
-.v[data-class=v] .vicon {
-    cursor: url(https://cdn.jsdelivr.net/gh/tinfy/blog-cdn/img/cur_pointer.cur), auto;
-}
-
-.v[data-class=v] .vbtn {
-    cursor: url(https://cdn.jsdelivr.net/gh/tinfy/blog-cdn/img/cur_pointer.cur), auto;
-}
-
-
-/* 回复 */
-
-.vat {
-    cursor: url(https://cdn.jsdelivr.net/gh/tinfy/blog-cdn/img/cur_pointer.cur), auto;
-}
-
-
-/*i标签*/
-
-i:hover {
-    cursor: url(https://cdn.jsdelivr.net/gh/tinfy/blog-cdn/img/cur_pointer.cur), auto;
-}
-
-
-/*up酱*/
-
-#upj:hover {
-    cursor: url(https://cdn.jsdelivr.net/gh/tinfy/blog-cdn/img/cur_pointer.cur), auto;
-}
-
-
-
-/*分页器*/
-
-#pagination .page-number:hover {
-    cursor: url(https://cdn.jsdelivr.net/gh/tinfy/blog-cdn/img/cur_pointer.cur), auto;
-}
-/* 分页器的三个点(...) */
-.space {
-    color: #00c4b6;
+label:hover {
+  cursor: url(https://cdn.jsdelivr.net/gh/tinfy/blog-cdn/img/cur_default.cur), auto;
 }
