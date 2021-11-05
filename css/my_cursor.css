@@ -6,7 +6,7 @@ a:hover, button:hover, time:hover {
   cursor: url(https://cdn.jsdelivr.net/gh/tinfy/blog-cdn/img/cur_pointer.cur), auto !important;
 }
 /* 推送消息的铃铛 */
-prompticon3:hover, btn:hover, popup_close:hover {
+prompticon3:hover, btn:hover, popup_close:hover, webpushrpromptbtndeny2:hover, webpushrpromptbtnapprove2:hover {
   cursor: url(https://cdn.jsdelivr.net/gh/tinfy/blog-cdn/img/cur_pointer.cur), auto;
 }
 /* 向上的箭头，复制代码的按钮，文章目录，站点概览 */
