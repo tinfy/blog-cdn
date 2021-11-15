@@ -1,24 +1,24 @@
 html, body {
-  cursor: url(https://cdn.jsdelivr.net/gh/tinfy/blog-cdn/img/cur_default.cur), auto;
+  cursor: url(https://cdn.jsdelivr.net/gh/tinfy/blog-cdn/img/my-images/cur_default.cur), auto;
 }
 /* 所有的链接和按钮，发表更新时间 */
 a:hover, button:hover, time:hover {
-  cursor: url(https://cdn.jsdelivr.net/gh/tinfy/blog-cdn/img/cur_pointer.cur), auto !important;
+  cursor: url(https://cdn.jsdelivr.net/gh/tinfy/blog-cdn/img/my-images/cur_pointer.cur), auto !important;
 }
 /* 推送消息的铃铛 */
 prompticon3:hover, btn:hover, popup_close:hover, webpushrpromptbtndeny2:hover, webpushrpromptbtnapprove2:hover {
-  cursor: url(https://cdn.jsdelivr.net/gh/tinfy/blog-cdn/img/cur_pointer.cur), auto !important;
+  cursor: url(https://cdn.jsdelivr.net/gh/tinfy/blog-cdn/img/my-images/cur_pointer.cur), auto !important;
 }
 /* 向上的箭头，复制代码的按钮，文章目录，站点概览，搜索框关闭按钮 */
 .back-to-top:hover, .copy-btn:hover, .sidebar-nav-toc:hover, .sidebar-nav-overview:hover, .popup-btn-close:hover {
-  cursor: url(https://cdn.jsdelivr.net/gh/tinfy/blog-cdn/img/cur_pointer.cur), auto !important;
+  cursor: url(https://cdn.jsdelivr.net/gh/tinfy/blog-cdn/img/my-images/cur_pointer.cur), auto !important;
 }
 /* 评论区 */
 svg:hover {
-  cursor: url(https://cdn.jsdelivr.net/gh/tinfy/blog-cdn/img/cur_pointer.cur), auto;
+  cursor: url(https://cdn.jsdelivr.net/gh/tinfy/blog-cdn/img/my-images/cur_pointer.cur), auto;
 }
 label:hover {
-  cursor: url(https://cdn.jsdelivr.net/gh/tinfy/blog-cdn/img/cur_default.cur), auto;
+  cursor: url(https://cdn.jsdelivr.net/gh/tinfy/blog-cdn/img/my-images/cur_default.cur), auto;
 }
 
 /* 定义滚动条宽高及背景 宽高分别对应横竖滚动条的尺寸 */
